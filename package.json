@@ -1,0 +1,36 @@
+{
+  "name": "homebridge-otgw",
+  "version": "0.0.1",
+  "description": "Homebridege plugin for OpenTherm Gateway",
+  "author": "Erik Baauw",
+  "license": "Apache-2.0",
+  "keywords": [
+    "homebridge-plugin",
+    "homekit",
+    "otgw",
+    "opentherm",
+    "opentherm gateway"
+  ],
+  "main": "index.js",
+  "engines": {
+    "homebridge": "^0.4.48",
+    "node": "^10.15.3",
+    "otgw": "4.2.5"
+  },
+  "dependencies": {
+    "homebridge-lib": "~4.0.11",
+    "request": "~2.88.0",
+    "ws": "~6.2.1"
+  },
+  "scripts": {
+    "test": "standard && echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebaauw/homebridge-ws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebaauw/homebridge-ws/issues"
+  },
+  "homepage": "https://github.com/ebaauw/homebridge-ws#readme"
+}
