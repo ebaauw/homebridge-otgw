@@ -64,7 +64,7 @@ Characteristic | OpenTherm | ID
 -- | -- | --
 _Current Temperature_ | Outside Temperature | 27
 
-My boiler has no outside temperature sensor, but I'm feeding the outside temperature from OpenWeatherMap to the OTGW gateway.  Currently I'm doing this by running a small `bash` script, [`weather.sh`](https://github/com/ebaauw/homebridge-otgw/cli/weather.sh), every 15 minutes from `cron`. It would be nicer instead to link to a _Temperature Sensor_ exposed by another homebridge plugin (like [homebridge-ws](https://github.com/ebaauw/homebridge-ws)), but that needs [homebridge v0.5](https://github.com/nfarina/homebridge/issues/1039).
+My boiler has no outside temperature sensor, but I'm feeding the outside temperature from OpenWeatherMap to the OTGW gateway.  Currently I'm doing this by running a small `bash` script, [`weather.sh`](https://github.com/ebaauw/homebridge-otgw/blob/master/cli/weather.sh), every 15 minutes from `cron`. It would be nicer instead to link to a _Temperature Sensor_ exposed by another homebridge plugin (like [homebridge-ws](https://github.com/ebaauw/homebridge-ws)), but that needs [homebridge v0.5](https://github.com/nfarina/homebridge/issues/1039).
 
 Ideally I would like to enable CH Comfort mode (or fireplace mode) from here (control the boiler based on the Outside Temperature instead of on the Room Temperature), but this seems to be a local setting on the thermostat, not exposed over OpenTherm.
 
