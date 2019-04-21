@@ -15,42 +15,38 @@ An accessory with a _Thermostat_ service to expose the room thermostat:
 
 Characteristic | OpenTherm | ID
 -- | -- | --
-_Current Temperature_ | Room Temperature | 24
-_Target Temperature_ | Room Setpoint<br>Remote Override Room Setpoint | 16<br>9
 _Current Heating Cooling State_ | Central Heating Mode (in Status) | 0
 _Target Heating Cooling State_ | Remote Override Room Setpoint<br>? Remote Override Function | 9<br>6
-_Valve Position_ | ? Relative Modulation Level | 17
+_Current Temperature_ | Room Temperature | 24
+_Target Temperature_ | Room Setpoint<br>Remote Override Room Setpoint | 16<br>9
+_Valve Position_ | Max Relative Modulation Level<br> | 14
 
 The _Target Heating Cooling State_ should reflect who set the Room Setpoint: the thermostat schedule (_Auto_) or the user (_Heat_).  We might want to indicate whether the override is until the next schedule event or continuously.
-
-Need to check whether Relative Modulation Level actually matches Central Heating Mode or Flame Status.
 
 #### 2. Boiler - Central Heating
 An accessory with a _Thermostat_ service to expose the boiler's Central Heating (CH) function:
 
 Characteristic | OpenTherm | ID
 -- | -- | --
+_Current Heating Cooling State_ | Flame Status (in Status) | 0
+_Target Heating Cooling State_ (read only) | Central Heating Enable (in Status) | 0
 _Current Temperature_ | Boiler Water Temperature | 25
 _Target Temperature_ (read-only)| Control Setpoint | 1
-_Current Heating Cooling State_ | Flame Status (in Status) | 0
-_Target Heating Cooling State_ (read only) | Central Heating Enable (in Status) | 9<br>6
-_Valve Position_ | ? Relative Modulation Level | 17
+_Valve Position_ | Relative Modulation Level | 17
 
 The _Target Temperature_ and _Target Heating Cooling State_ are controlled by the modulating Thermostat, so they shouldn't be updated by the user.
 
 Expose Return Water Temperature (28) as additional _Temperature Sensor_ service (without history) in this accessory, or in a separate accessory (with history)?
-
-Need to check whether Relative Modulation Level actually matches Central Heating Mode or Flame Status.
 
 #### 3. Boiler - Domestic Hot Water
 An accessory with a _Thermostat_ service to expose the boiler's Domestic Hot Water (DHW) function:
 
 Characteristic | OpenTherm | ID
 -- | -- | --
-_Current Temperature_ | DHW Temperature<br>Boiler Water Temperature | 26<br>25
-_Target Temperature_ | DHW Setpoint | 56
 _Current Heating Cooling State_ | DHW Mode (in Status) | 0
 _Target Heating Cooling State_ | DHW Enable (in Status) | 0
+_Current Temperature_ | DHW Temperature<br>Boiler Water Temperature | 26<br>25
+_Target Temperature_ | DHW Setpoint | 56
 _Valve Position_ | DHW Mode (in Status) | 0
 
 My boiler doesn't support DHW Temperature, so use Boiler Water Temperature instead.
