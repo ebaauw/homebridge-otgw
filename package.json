@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebaauw/homebridge-ws.git"
+    "url": "git+https://github.com/ebaauw/homebridge-otgw.git"
   },
   "bugs": {
-    "url": "https://github.com/ebaauw/homebridge-ws/issues"
+    "url": "https://github.com/ebaauw/homebridge-otgw/issues"
   },
-  "homepage": "https://github.com/ebaauw/homebridge-ws#readme"
+  "homepage": "https://github.com/ebaauw/homebridge-otgw#readme"
 }
