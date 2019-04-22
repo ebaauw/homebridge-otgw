@@ -8,7 +8,7 @@ Copyright © 2019 Erik Baauw. All rights reserved.
 This [homebridge](https://github.com/nfarina/homebridge) plugin exposes (or rather: will expose) an [OpenTherm Gateway](http://www.otgw.tclcode.com/index.html) (OTGW) to Apple's [HomeKit](http://www.apple.com/ios/home/).
 
 ### Work in Progress
-The initial prerelease version of homebridge-zp connects to the OpenTherm gateway, but doesn't yet expose any HomeKit accessories.  I'm still figuring out how best to expose the OTGW to HomeKit.  We'll need to use multiple accessories, if we want multiple history graphs in Eve.
+Version 0.0.2 of homebridge-otgw exposes three _Thermostat_ accessories: **Thermostat**, **Boiler**, and **HotWater**, as described below, each with its own Eve history.  For now, the accessories are read-only - changes to _Target Heating Cooling State_ and _Target Temperature_ are ignored.
 
 #### 1. Room Thermostat
 An accessory with a _Thermostat_ service to expose the room thermostat:
@@ -54,7 +54,7 @@ My boiler doesn't support DHW Temperature, so use Boiler Water Temperature inste
 The _Target Heating Cooling State_ should reflect who set the DHW mode: _Auto_ for thermostat controlled, _Heat_ for Confort Mode, and _Off_ for Eco mode.  My boiler allows these settings, and my thermostat can turn DHW Mode off automatically during the night and/or on holidays.
 
 #### 4. Outside Temperature
-An accessory with a _Temperature Sensor_ service to expose the outside temperature.
+Optional (currently not exposed): an accessory with a _Temperature Sensor_ service to expose the outside temperature.
 
 Characteristic | OpenTherm | ID
 -- | -- | --
