@@ -1,0 +1,33 @@
+{
+  "pluginAlias": "OTGW",
+  "pluginType": "platform",
+  "singular": true,
+  "headerDisplay": "Homebridge plugin for OpenTherm Gateway",
+  "footerDisplay": "",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "description": "Plugin name as displayed in the homebridge log.",
+        "type": "string",
+        "required": true,
+        "default": "OTGW"
+      },
+      "host" : {
+        "title": "OpenTherm Monitor",
+        "description": "Hostname and port of the OpenTherm Monitor web server.  Default: 'localhost:8080'.",
+        "type": "string"
+      },
+      "otgw": {
+        "title": "OpenTherm Gateway",
+        "description": "Hostname and port of the OpenTherm Gateway terminal server.",
+        "type": "string"
+      }
+    }
+  },
+  "form": [
+    "name",
+    "host",
+    "otgw"
+  ]
+}
