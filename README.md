@@ -79,8 +79,7 @@ When the fallback is configured, homebridge-otgw tries to (re-)connect to OTM fi
 ### Installation
 To install homebridge-otgw, use:
 ```
-$ npm -g i hblib
-$ npm -g i homebridge-otgw
+$ npm -g i hblib homebridge-otgw
 ```
 
 ### Configuration
