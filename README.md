@@ -76,6 +76,13 @@ As a fallback, the homebridge-otgw plugin can connect to the OTGW when equipped 
 
 When the fallback is configured, homebridge-otgw tries to (re-)connect to OTM first, falling back to OTGW's NodeMCU when that fails.  This way, homebridge-otgw continously interacts with the OTGW, irrespective of whether OTM is running or not.
 
+### Installation
+To install homebridge-otgw, use:
+```
+$ npm -g i hblib
+$ npm -g i homebridge-otgw
+```
+
 ### Configuration
 In homebridge's `config.json` you need to specify homebridge-otgw as a platform plugin.  Furthermore, you can specify the hostname and port of the OTM web server.  When not specified, the default `localhost:8080` is used.  Optionally, you can specify the hostname and port of the NodeMCU serial server:
 ```json
