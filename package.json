@@ -18,7 +18,7 @@
     "otgw": "4.2.5"
   },
   "peerDependencies": {
-    "homebridge-lib": "~4.2.6"
+    "homebridge-lib": "~4.2.7"
   },
   "dependencies": {
     "request": "~2.88.0",
