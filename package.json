@@ -13,12 +13,14 @@
   ],
   "main": "index.js",
   "engines": {
-    "homebridge": "^0.4.49",
+    "homebridge": "^0.4.50",
     "node": "^10.16.0",
     "otgw": "4.2.5"
   },
+  "peerDependencies": {
+    "homebridge-lib": "~4.2.6"
+  },
   "dependencies": {
-    "homebridge-lib": "~4.2.5",
     "request": "~2.88.0",
     "ws": "~7.0.0"
   },
