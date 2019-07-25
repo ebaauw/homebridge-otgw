@@ -77,9 +77,9 @@ As a fallback, the homebridge-otgw plugin can connect to the OTGW when equipped 
 When the fallback is configured, homebridge-otgw tries to (re-)connect to OTM first, falling back to OTGW's NodeMCU when that fails.  This way, homebridge-otgw continously interacts with the OTGW, irrespective of whether OTM is running or not.
 
 ### Installation
-As `homebridge-otgw` is built using `homebridge-lib`, the latter must be installed as a peer dependency:
+To install homebridge-otgw, use:
 ```
-$ sudo npm -g i homebridge-lib homebridge-otgw
+$ sudo npm -g i homebridge-otgw
 ```
 
 ### Configuration
