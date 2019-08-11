@@ -19,11 +19,11 @@
   },
   "engines": {
     "homebridge": "^0.4.50",
-    "node": "^10.16.1",
+    "node": "^10.16.2",
     "otgw": "4.2.5"
   },
   "dependencies": {
-    "homebridge-lib": "~4.4.2",
+    "homebridge-lib": "~4.4.3",
     "request": "~2.88.0",
     "ws": "~7.1.1"
   },
