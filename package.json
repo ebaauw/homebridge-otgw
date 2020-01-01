@@ -23,7 +23,7 @@
     "otgw": "4.2.5"
   },
   "dependencies": {
-    "homebridge-lib": "~4.4.9",
+    "homebridge-lib": "~4.4.10",
     "request": "~2.88.0",
     "ws": "~7.2.1"
   },
