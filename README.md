@@ -3,7 +3,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Homebridge plugin for OpenTherm Gateway
-Copyright © 2019 Erik Baauw. All rights reserved.
+Copyright © 2019-2020 Erik Baauw. All rights reserved.
 
 This [homebridge](https://github.com/nfarina/homebridge) plugin exposes (or rather: will expose) an [OpenTherm Gateway](http://www.otgw.tclcode.com/index.html) (OTGW) to Apple's [HomeKit](http://www.apple.com/ios/home/).
 
