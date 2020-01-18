@@ -1,6 +1,9 @@
 # homebridge-otgw
-[![npm](https://img.shields.io/npm/dt/homebridge-otgw.svg)](https://www.npmjs.com/package/homebridge-otgw) [![npm](https://img.shields.io/npm/v/homebridge-otgw.svg)](https://www.npmjs.com/package/homebridge-otgw)
+[![npm](https://img.shields.io/npm/dt/homebridge-otgw.svg)](https://www.npmjs.com/package/homebridge-otgw)
+[![npm](https://img.shields.io/npm/v/homebridge-otgw.svg)](https://www.npmjs.com/package/homebridge-otgw)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![GitHub issues](https://img.shields.io/github/issues/ebaauw/homebridge-otgw)](https://github.com/ebaauw/homebridge-otgw/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/ebaauw/homebridge-otgw)](https://github.com/ebaauw/homebridge-otgw/pulls)
 
 ## Homebridge plugin for OpenTherm Gateway
 Copyright © 2019-2020 Erik Baauw. All rights reserved.
