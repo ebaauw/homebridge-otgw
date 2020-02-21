@@ -1,6 +1,6 @@
 {
   "name": "homebridge-otgw",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "Homebridege plugin for OpenTherm Gateway",
   "author": "Erik Baauw",
   "license": "Apache-2.0",
