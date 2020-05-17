@@ -14,12 +14,12 @@
   ],
   "main": "index.js",
   "engines": {
-    "homebridge": "~1.0.4",
+    "homebridge": "^1.0.4",
     "node": "^12.16.3",
     "otgw": "4.2.5"
   },
   "dependencies": {
-    "homebridge-lib": "~4.7.3",
+    "homebridge-lib": "~4.7.5",
     "ws": "~7.3.0"
   },
   "scripts": {
