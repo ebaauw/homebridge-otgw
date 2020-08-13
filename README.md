@@ -12,7 +12,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/ebaauw/homebridge-otgw)](https://github.com/ebaauw/homebridge-otgw/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/ebaauw/homebridge-otgw)](https://github.com/ebaauw/homebridge-otgw/pulls)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Contribute](https://img.shields.io/badge/contribute-paypal%20me-brightgreen)](https://www.paypal.me/ebaauw/EUR)
 
 </span>
 
