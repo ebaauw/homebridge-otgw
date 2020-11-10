@@ -16,11 +16,11 @@
   "engines": {
     "homebridge": "^1.1.0",
     "node": "^14.15.0",
-    "otgw": "4.2.5"
+    "otgw": "4.2.6"
   },
   "dependencies": {
     "homebridge-lib": "^4.8.0",
-    "ws": "^7.3.1"
+    "ws": "^7.4.0"
   },
   "scripts": {
     "prepare": "standard",
