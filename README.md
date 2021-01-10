@@ -16,7 +16,7 @@
 </span>
 
 ## Homebridge plugin for OpenTherm Gateway
-Copyright © 2019-2020 Erik Baauw. All rights reserved.
+Copyright © 2019-2021 Erik Baauw. All rights reserved.
 
 This [Homebridge](https://github.com/homebridge/homebridge) plugin exposes the room thermostat and boiler, connected to an [OpenTherm Gateway](http://www.otgw.tclcode.com/index.html) (OTGW), to Apple's [HomeKit](http://www.apple.com/ios/home/).
 It exposes four accessories: **Thermostat**, **Boiler**, **HotWater**, and **OutsideTemperature**, each with their own Eve history.
@@ -102,7 +102,7 @@ Ideally I would like to enable/disable CH Comfort mode (or fireplace mode) from 
 However, this seems to be a local setting on the room thermostat, not exposed over OpenTherm.
 
 ### Prerequisites
-You need an [OpenTherm Gateway](http://otgw.tclcode.com) with firmware [4.2.5](http://otgw.tclcode.com/download.html), wired to an OpenTherm [compatible](http://otgw.tclcode.com/matrix.cgi) boiler and room thermostat.
+You need an [OpenTherm Gateway](http://otgw.tclcode.com) with firmware [4.2.6](http://otgw.tclcode.com/download.html), wired to an OpenTherm [compatible](http://otgw.tclcode.com/matrix.cgi) boiler and room thermostat.
 I have a Remeha Avanta boiler and a Honeywell Chromotherm Vision Modulation room thermostat.
 Please check that your setup works using the [OpenTherm Monitor](http://www.otgw.tclcode.com/otmonitor.html) (OTM), before trying Homebridge OTGW.
 I'm running OTM in a Raspberry Pi, as there's no pre-compiled macOS version.
