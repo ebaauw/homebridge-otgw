@@ -13,7 +13,7 @@
         "required": true,
         "default": "OTGW"
       },
-      "host" : {
+      "host": {
         "title": "OpenTherm Monitor",
         "description": "Hostname and port of the OpenTherm Monitor web server.  Default: 'localhost:8080'.",
         "type": "string"
