@@ -15,12 +15,12 @@
   "main": "index.js",
   "engines": {
     "homebridge": "^1.5.0",
-    "node": "^16.17.0",
+    "node": "^16.17.1",
     "otgw": "5.4"
   },
   "dependencies": {
-    "homebridge-lib": "~5.6.5",
-    "ws": "^8.8.1"
+    "homebridge-lib": "~5.6.8",
+    "ws": "^8.9.0"
   },
   "scripts": {
     "prepare": "standard",
@@ -34,8 +34,13 @@
     "url": "https://github.com/ebaauw/homebridge-otgw/issues"
   },
   "homepage": "https://github.com/ebaauw/homebridge-otgw#readme",
-  "funding": {
-    "type": "paypal",
-    "url": "https://www.paypal.me/ebaauw/EUR"
-  }
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ebaauw"
+    }, {
+      "type": "paypal",
+      "url": "https://www.paypal.me/ebaauw/EUR"
+    }
+  ]
 }
