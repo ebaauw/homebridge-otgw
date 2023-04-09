@@ -19,7 +19,7 @@
     "otgw": "5.4"
   },
   "dependencies": {
-    "homebridge-lib": "~6.3.12",
+    "homebridge-lib": "~6.3.13",
     "ws": "^8.13.0"
   },
   "scripts": {
