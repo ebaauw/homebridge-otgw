@@ -1,5 +1,5 @@
 // homebridge-otgw/index.js
-// Copyright © 2019-2023 Erik Baauw. All rights reserved.
+// Copyright © 2019-2024 Erik Baauw. All rights reserved.
 //
 // Homebridege plugin for OpenTherm Gateway.
 

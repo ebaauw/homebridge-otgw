@@ -16,7 +16,7 @@
 </span>
 
 ## Homebridge plugin for OpenTherm Gateway
-Copyright © 2019-2023 Erik Baauw. All rights reserved.
+Copyright © 2019-2024 Erik Baauw. All rights reserved.
 
 This [Homebridge](https://github.com/homebridge/homebridge) plugin exposes the room thermostat and boiler, connected to an [OpenTherm Gateway](http://www.otgw.tclcode.com/index.html) (OTGW), to Apple's [HomeKit](http://www.apple.com/ios/home/).
 It exposes four accessories: **Thermostat**, **Boiler**, **HotWater**, and **OutsideTemperature**, each with their own Eve history.
