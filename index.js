@@ -3,11 +3,15 @@
 //
 // Homebridege plugin for OpenTherm Gateway.
 
-'use strict'
+import { createRequire } from 'node:module'
 
-const OtgwPlatform = require('./lib/OtgwPlatform')
+import { OtgwPlatform } from './lib/OtgwPlatform.js'
+
+const require = createRequire(import.meta.url)
 const packageJson = require('./package.json')
 
-module.exports = function (homebridge) {
+function main (homebridge) {
   OtgwPlatform.loadPlatform(homebridge, packageJson, 'OTGW', OtgwPlatform)
 }
+
+export { main as default }
