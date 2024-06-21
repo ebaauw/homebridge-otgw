@@ -15,12 +15,12 @@
   "type": "module",
   "main": "index.js",
   "engines": {
-    "homebridge": "^1.8.2",
+    "homebridge": "^1.8.3",
     "node": "^20||^18",
     "otgw": "5.8"
   },
   "dependencies": {
-    "homebridge-lib": "~7.0.3",
+    "homebridge-lib": "~7.0.4",
     "ws": "^8.17.1"
   },
   "scripts": {
