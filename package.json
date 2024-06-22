@@ -3,6 +3,9 @@
   "description": "Homebridege plugin for OpenTherm Gateway",
   "displayName": "Homebridge OTGW",
   "author": "Erik Baauw",
+  "maintainers": [
+    "ebaauw"
+  ],
   "license": "Apache-2.0",
   "version": "2.1.23",
   "keywords": [
