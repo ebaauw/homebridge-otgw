@@ -1,6 +1,6 @@
 {
   "name": "homebridge-otgw",
-  "description": "Homebridege plugin for OpenTherm Gateway",
+  "description": "Homebridge plugin for OpenTherm Gateway",
   "displayName": "Homebridge OTGW",
   "author": "Erik Baauw",
   "maintainers": [
