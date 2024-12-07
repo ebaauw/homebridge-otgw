@@ -23,7 +23,7 @@
     "otgw": "5.8"
   },
   "dependencies": {
-    "homebridge-lib": "~7.1.0",
+    "homebridge-lib": "~7.1.1",
     "ws": "^8.18.0"
   },
   "scripts": {
