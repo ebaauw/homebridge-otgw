@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # weather.sh
-# Copyright © 2017-2024 Erik Baauw. All rights reserved.
+# Copyright © 2017-2025 Erik Baauw. All rights reserved.
 #
 # Set the OTGW outside temperature from OpenWeatherMap.
 
