@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "homebridge-lib": "~7.1.5",
-    "ws": "^8.18.0"
+    "ws": "^8.18.1"
   },
   "scripts": {
     "prepare": "standard",
