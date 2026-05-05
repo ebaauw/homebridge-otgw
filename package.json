@@ -18,13 +18,13 @@
   "type": "module",
   "main": "index.js",
   "engines": {
-    "homebridge": "^1.11.2||^2.0.0-beta",
-    "node": "^24||^22||^20",
+    "homebridge": "^2.0.0",
+    "node": "^24||^22",
     "otgw": "5.8"
   },
   "dependencies": {
-    "homebridge-lib": "~7.3.2",
-    "ws": "^8.19.0"
+    "homebridge-lib": "~8.0.1",
+    "ws": "^8.20.0"
   },
   "scripts": {
     "prepare": "standard",
